@@ -5,7 +5,7 @@ Este repositorio contiene los archivos y datos utilizados en el proyecto de sist
 ## Contenidos del repositorio
 
 - `Archivos finales/`: Carpeta que contiene los archivos finales del proyecto.
-  - `all_reviews_df.csv`: Archivo CSV con todas las reseñas.
+  - `all_reviews_df.csv`: Archivo CSV con reseñas filtradas.
   - `book_id_map_10k.json`: Mapa de IDs de libros.
   - `test_w_title.csv`: Archivo CSV de prueba con títulos.
   - `train_w_title.csv`: Archivo CSV de entrenamiento con títulos.
