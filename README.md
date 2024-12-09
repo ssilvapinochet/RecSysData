@@ -20,7 +20,7 @@ Este repositorio contiene los archivos y datos utilizados en el proyecto de sist
 
 1. Clona el repositorio:
    ```sh
-   git clone <URL_DEL_REPOSITORIO>
+   git clone https://github.com/ssilvapinochet/RecSysData.git
    ```
 2. Navega a la carpeta:
     ```sh
