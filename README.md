@@ -12,6 +12,8 @@ Este repositorio contiene los archivos y datos utilizados en el proyecto de sist
   - `user_id_map_10k.json`: Mapa de IDs de usuarios.
 - `dataset_names.csv`: Archivo CSV con los nombres de los datasets utilizados.
 - `Multimodal.ipynb`: Notebook de Jupyter que contiene el código y análisis del proyecto.
+- `FunkSVD.ipynb`: Notebook de Jupyter que contiene el código y análisis del baseline FunkSVD utilizando solo ratings.
+- `CFGAN.ipynb`: Notebook de Jupyter que contiene el código y análisis del baseline CFGAN utilizando solo ratings.
 - `.gitattributes`: Archivo de configuración de Git para el manejo de archivos grandes.
 - `.gitignore`: Archivo de configuración de Git para ignorar archivos innecesarios.
 - `README.md`: Este archivo, que describe el proyecto y el contenido del repositorio.
@@ -33,6 +35,9 @@ Este repositorio contiene los archivos y datos utilizados en el proyecto de sist
 - Jupyter Notebook
 - Bibliotecas de Python:
   - tensorflow (>=2.18.0)
+  - pyreclab
+  - psutil
+  - implicit
   - pandas
   - numpy
   - scikit-learn
@@ -45,4 +50,4 @@ Este repositorio contiene los archivos y datos utilizados en el proyecto de sist
 
 ## Descripción del proyecto
 
-El proyecto utiliza datos de Goodreads para desarrollar un sistema de recomendación. Los datos incluyen reseñas de libros, información de usuarios y libros, y otros metadatos relevantes. El notebook `Multimodal.ipynb` contiene el código para cargar, procesar y analizar los datos, así como para entrenar y evaluar modelos de recomendación.
+El proyecto utiliza datos de Goodreads para desarrollar un sistema de recomendación. Los datos incluyen reseñas de libros, información de usuarios y libros, y otros metadatos relevantes. El notebook `Multimodal.ipynb` contiene el código para cargar, procesar y analizar los datos, así como para entrenar y evaluar modelos de recomendación. Los notebooks `FunkSVD.ipynb` y `CFGAN.ipynb` contienen las implementaciones de sistemas recomendador bajo los modelos del nombre de los archivos para comparar el modelo multimodal con un modelo tipico de recomendación y con otro poco convencional, respectivamente.
